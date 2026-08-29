@@ -26,15 +26,30 @@ int main(){
 		cout << "pilih operator: ";
 		cin >> mtk;
 
-		cout << "pilih nilai pertama";
+		cout << "pilih nilai pertama: ";
 		cin >> nilai1;
 
-		cout << "pilih nilai kedua";
+		cout << "pilih nilai kedua: ";
 		cin >> nilai2;
 
 		if (mtk == '+'){
 			hasil = nilai1 + nilai2;
 			cout << "hasil: "  << hasil << endl;
+		} else if (mtk == '-'){
+			hasil = nilai1 - nilai2;
+			cout << "hasil: "  << hasil << endl;
+		} else if (mtk == '*'){
+			hasil = nilai1 * nilai2;
+			cout << "hasil: "  << hasil << endl;
+		} else if (mtk == '/'){
+			if (nilai1 == 0 | nilai2 == 0){
+				cout << "tidak bisa membagi dengan 0";
+			} else {
+				hasil = nilai1 / nilai2;
+				cout << "hasil: "  << hasil << endl;
+			}
+		} else {
+			cout << "invalid input" << endl;
 		}
 
 	} else if(yesno == 'N' | yesno == 'n'){
