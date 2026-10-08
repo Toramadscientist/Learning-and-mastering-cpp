@@ -1,7 +1,5 @@
-INI ADALAH REPOSITOY KU UNTUK BELAJAR C++ DAN MASTERING C++
+Halo aku tora
 
-SAYA BUAT MENJADI BERBAGI FOLDER
+di repository ini aku menunjukan progress ku belajar bahasa c++
 
-TERKADANG ADA NAMA TIPE DATA YNG NGACO
-
-OKE MAKASI
+oke makasih
