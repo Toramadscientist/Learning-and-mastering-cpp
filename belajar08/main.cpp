@@ -1,6 +1,10 @@
 #include <iostream>
 
 int main(){
-    std::cout << "hello world" << std::endl;
+
+    //multidemensi array
+
+    int array[2][2] = {1,2,3,4};
+    std::cout << array[1][1] << std::endl;
 return 0;
 }
